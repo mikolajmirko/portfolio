@@ -13,7 +13,7 @@
         </div>
       </div>
     </div>
-    <div class="container max-w-screen-xl mx-auto px-8 md:px-16 relative">
+    <div class="container max-w-screen-xl mx-auto px-8 md:px-16 relative mb-4">
       <div class="blobs blobs-2" />
       <h2 class="secondary-header" data-aos="fade-right">Education</h2>
       <div class="py-4">

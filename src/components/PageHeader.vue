@@ -1,12 +1,12 @@
 <template>
   <div id="home">
-    <div class="container max-w-screen-xl mx-auto flex flex-wrap flex-col md:flex-row items-stretch px-8 pt-20 md:pt-36 lg:pt-32 pb-4 md:pb-16">
+    <div class="container max-w-screen-xl mx-auto flex flex-wrap flex-col md:flex-row items-stretch px-8 pt-20 md:pt-36 lg:pt-32 pb-4 md:pb-10">
       <div class="flex flex-col w-full md:w-2/5 justify-center items-center pb-0 md:pb-24 lg:pb-16" data-aos="fade-right">
         <div class="md:pl-8 pt-12 pb-16 md:py-12 w-full md:whitespace-nowrap text-center md:text-left">
           <span class="text-gray-500 text-2xl lg:text-3xl">Hello, I'm</span>
-          <h1 class="text-black font-bold text-4xl lg:text-6xl relative pt-1">Mikołaj Mirko</h1>
+          <h1 class="text-dark font-bold text-4xl lg:text-6xl relative pt-1">Mikołaj Mirko</h1>
           <img src="~@/assets/main_underline.svg" class="-mt-2 mx-auto md:-ml-6 w-72 md:w-96 select-none" alt="" /> 
-          <h2 class="text-black font-light text-xl lg:text-2xl pt-2">Frontend developer <br class="lg:hidden">& UI designer</h2>
+          <h2 class="text-dark font-light text-xl lg:text-2xl pt-2">Frontend developer <br class="lg:hidden">& UI designer</h2>
         </div>
         <div class="social-buttons hidden lg:block">
           <a class="linkedin-icon inline-flex flex-nowrap mb-1" href="https://www.linkedin.com/in/mikolajmirko/" rel="noreferrer" target="_blank" data-aos="fade-left" data-aos-delay="200">

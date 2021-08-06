@@ -11,7 +11,7 @@
             </scrollactive>
         </transition>
         <div class="w-full py-6 lg:py-10 fixed z-20">
-            <nav class="max-w-screen-xl mx-auto flex justify-between items-center px-6 lg:px-24" data-aos="flip-up">
+            <nav class="max-w-screen-xl mx-auto flex justify-between items-center px-6 lg:px-24" data-aos="fade-down" data-aos-delay="400">
                 <scrollactive :offset="80" class="main-menu hidden md:flex items-center">
                     <div class="slider" ref="navSlider"></div>
                     <a href="#home" class="scrollactive-item" @click="onNavClick" aria-label="Go to start" title="Go to start"><home-icon size="22" class="pointer-events-none"></home-icon></a>
@@ -70,8 +70,10 @@ export default {
             this.$emit('toggle-menu');
     }
   },
-  mounted() {
-    this.setStyle(document.querySelector('.main-menu > a.is-active'));
+  mounted: function() {
+    this.$nextTick(function() {
+      this.setStyle(document.querySelector('.main-menu > a.is-active'));
+    });
   },
   props: {
     menuOpened: Boolean

@@ -14,7 +14,7 @@
             <img :src="getProjectAsset(project.id, 'icon')" class="project-icon" :alt="`${project.name} Logo`" />
             <div class="flex-grow">
               <h2 class="font-bold text-2xl md:text-3xl">{{ project.name }}</h2>
-              <h3 class="text-black font-light text-base">{{ project.type }}</h3>
+              <h3 class="text-dark font-light text-base">{{ project.type }}</h3>
             </div>
           </div>
           <component :is="project.solo ? 'user-icon' : 'users-icon'" size="40" class="text-gray-300 absolute top-8 right-8 hidden md:block"></component>

@@ -8,17 +8,13 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       white: '#FFFFFF',
-      black: '#424242',
+      dark: '#424242',
+      black: '#212121',
       yellow: {
         100: '#FAD872',
         200: '#EBC451'
       },
-      blueGray: colors.blueGray,
-      gray: colors.gray,
-      amber: colors.amber,
-      sky: colors.sky,
-      indigo: colors.indigo,
-      violet: colors.violet
+      gray: colors.gray
     },
     fontFamily: {
       sans: ['Inter', 'sans-serif']

@@ -16,5 +16,12 @@
       <strong>I'm sorry but this page doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
+    <!-- Contact form for Netlify detection -->
+    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input type="text" name="name" />
+      <input type="text" name="email" />
+      <textarea name="message"></textarea>
+    </form>
   </body>
 </html>

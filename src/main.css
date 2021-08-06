@@ -22,7 +22,11 @@ body {
 }
 
 p > a {
-    @apply underline text-sky-600;
+    @apply underline transition-colors;
+    color: #1691e4;
+}
+p > a:hover, p > a:focus {
+    color: #0d71b4;
 }
 
 .fade-enter-active, .fade-leave-active {
@@ -48,11 +52,11 @@ p > a {
 }
 
 .main-menu > a {
-    @apply px-5 py-3 block font-bold text-sm text-black rounded-full z-10 transition-colors overflow-ellipsis whitespace-nowrap;
+    @apply px-5 py-3 block font-bold text-sm text-dark rounded-full z-10 transition-colors overflow-ellipsis whitespace-nowrap;
 }
 
 .main-menu > a[href="#home"]{
-    @apply px-3 p-3 text-white bg-black;
+    @apply px-3 p-3 text-white bg-dark hover:bg-black;
 }
 
 .mobile-menu-icon {
@@ -67,7 +71,7 @@ p > a {
 }
 
 .mobile-menu > a {
-    @apply font-bold text-black text-2xl relative px-8 py-6 w-full uppercase;
+    @apply font-bold text-dark text-2xl relative px-8 py-6 w-full uppercase;
 }
 
 .mobile-menu > a.is-active:after {
@@ -134,7 +138,7 @@ p > a {
 }
 
 .main-header h1 {
-    @apply text-3xl md:text-4xl lg:text-5xl text-black font-bold relative;
+    @apply text-3xl md:text-4xl lg:text-5xl text-dark font-bold relative;
 }
 
 .main-header img {
@@ -196,7 +200,7 @@ p > a {
 }
 
 .blobs.blobs-3 {
-    @apply top-0 left-1/2;
+    @apply -top-24 left-1/2;
     background-image: url('~@/assets/bg-skill.png');
     width: 1766px;
     height: 896px;
@@ -213,10 +217,6 @@ p > a {
 
 .skills {
     @apply pt-4 pb-12;
-}
-
-.skills h2 {
-    @apply text-black font-bold text-2xl text-center pt-6;
 }
 
 .skills ul {
@@ -277,7 +277,7 @@ p > a {
 }
 
 .project-button {
-    @apply mr-2 p-2.5 rounded-full text-white transition-colors inline-flex flex-nowrap mt-6 bg-black;
+    @apply mr-2 p-2.5 rounded-full text-white transition-colors inline-flex flex-nowrap mt-6 bg-dark hover:bg-black;
 }
 
 /* Contact form */
@@ -287,5 +287,13 @@ p > a {
 }
 
 .contact-form button {
-    @apply p-2.5 rounded-full text-white transition-colors inline-flex flex-nowrap bg-black; 
+    @apply p-2.5 rounded-full text-white transition-colors inline-flex flex-nowrap bg-dark hover:bg-black;
+}
+
+.text-red {
+    color: #B7195E;
+}
+
+.text-green {
+    color: #1cad35;
 }

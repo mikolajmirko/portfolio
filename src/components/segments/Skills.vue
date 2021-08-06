@@ -5,9 +5,9 @@
       <div class="blobs blobs-3" />
       <div class="grid gap-x-4 md:grid-cols-3 skills">
         <div>
-          <div class="skill-blob code" data-aos="zoom-in" data-aos-delay="0" data-aos-offset="320"/>
-          <div data-aos="fade-down" data-aos-delay="300">
-            <h2>Code</h2>
+          <div class="skill-blob code" data-aos="zoom-in" data-aos-delay="0" />
+          <div data-aos="fade-up" data-aos-delay="300">
+            <h2 class="secondary-header text-center mt-4">Code</h2>
             <ul>
               <li>JavaScript ES6</li>
               <li>Vue.js & React</li>
@@ -19,9 +19,9 @@
           </div>
         </div>
         <div>
-          <div class="skill-blob design" data-aos="zoom-in" data-aos-delay="100" data-aos-offset="320"/>
-          <div data-aos="fade-down" data-aos-delay="400">
-            <h2>Design</h2>
+          <div class="skill-blob design" data-aos="zoom-in" data-aos-delay="100" />
+          <div data-aos="fade-up" data-aos-delay="400">
+            <h2 class="secondary-header text-center mt-4">Design</h2>
             <ul>
               <li>Prototyping</li>
               <li class="smaller-element">Framer</li>
@@ -35,9 +35,9 @@
           </div>
         </div>
         <div>
-          <div class="skill-blob team" data-aos="zoom-in" data-aos-delay="200" data-aos-offset="320"/>
-          <div data-aos="fade-down" data-aos-delay="500">
-            <h2>Project & Team</h2>
+          <div class="skill-blob team" data-aos="zoom-in" data-aos-delay="200" />
+          <div data-aos="fade-up" data-aos-delay="500">
+            <h2 class="secondary-header text-center mt-4">Project & Team</h2>
             <ul>
               <li>Git</li>
               <li>JIRA</li>
