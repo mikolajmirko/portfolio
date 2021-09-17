@@ -10,7 +10,7 @@
             <h2 class="secondary-header text-center mt-4">Code</h2>
             <ul>
               <li>JavaScript ES6</li>
-              <li>Vue.js & React</li>
+              <li>Vue.js</li>
               <li>HTML 5</li>
               <li>CSS3, Sass</li>
               <li class="smaller-element">Multiple frameworks</li>
@@ -39,8 +39,8 @@
           <div data-aos="fade-up" data-aos-delay="500">
             <h2 class="secondary-header text-center mt-4">Project & Team</h2>
             <ul>
-              <li>Git</li>
-              <li>JIRA</li>
+              <li>Git & JIRA</li>
+              <li>Agile methodology</li>
               <li>Visual Studio Code</li>
               <li>Microsoft Office Apps</li>
               <li>Languages</li>

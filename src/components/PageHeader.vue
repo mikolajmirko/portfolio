@@ -23,7 +23,7 @@
           </a>
         </div>
       </div>
-      <div class="w-full md:w-3/5 relative header-image" data-aos="fade-left" data-aos-delay="150"></div>
+      <div class="w-full md:w-3/5 relative header-image" data-aos="fade-left" data-aos-delay="400"></div>
     </div>
   </div>
 </template>
