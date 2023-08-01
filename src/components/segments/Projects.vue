@@ -32,7 +32,7 @@
                 @click="project.galleryIndex = idx"
               />
               <div class="clear-both" />
-              <a class="project-button" :href="project.link" rel="noreferrer" target="_blank">
+              <a v-if="project.link" class="project-button" :href="project.link" rel="noreferrer" target="_blank">
                 <external-link-icon size="24" class="mx-1.5 mr-3"></external-link-icon>
                 <span class="pr-3">
                   <span class="hidden md:inline">Check out </span>{{ project.name }}
@@ -66,7 +66,6 @@ export default {
           name: "TechBites",
           type: "Website",
           description: "I was fortunate enough to do a Master thesis project that is both interesting to me and can potently have an impact on the real world. TechBites is a web portal designed from scratch that brings people interested in usability & accessibility together. On the website, you can find bites – short and easy to digest portions of information on various topics in the field of UI/UX.",
-          link: "https://techbites.pl/en/",
           solo: true,
           galleryIndex: null,
           gallery: [
@@ -97,7 +96,6 @@ export default {
           name: "Fokus",
           type: "Mobile App",
           description: "Fokus is a mobile application that helps kids complete their daily tasks under parental control. Main features include task scheduling and progress tracking, as well as awarding badges and points. I was in charge of designing and evaluating the prototype, as well as writing the front-end.",
-          link: "https://fokus.link/index-en.html",
           solo: false,
           galleryIndex: null,
           gallery: [
@@ -133,7 +131,6 @@ export default {
           name: "Codenames",
           type: "Website",
           description: "This is a simple multiplayer game where you uncover cryptic agents names in two teams. It is based on real game called Codenames. I build it solo to test my skills and challenge myself with implementing Vue.js front-end and WebSocket back-end.",
-          link: "https://retro-codenames.netlify.app/",
           solo: true,
           galleryIndex: null,
           gallery: [
@@ -159,7 +156,6 @@ export default {
           name: "WikiGraph",
           type: "Virtual Reality Cave Application",
           description: "WikiGraph is an immersive virtual reality cave application that allows its users to browse any Wikipedia in 3D. All the articles and links between them are visualized in form of a graph. It was build as part of a Bachelor’s thesis group project. I was responsible for designing the user interactions and the general visual look.",
-          link: "https://wikitools.github.io/index-en.html",
           solo: false,
           galleryIndex: null,
           gallery: [

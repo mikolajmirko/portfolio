@@ -7,7 +7,7 @@
     <Experience />
     <Skills />
     <Projects />
-    <Contact />
+    <Page-footer />
   </div>
 </template>
 
@@ -19,7 +19,7 @@ import AboutMe from './components/segments/AboutMe.vue';
 import Experience from './components/segments/Experience.vue';
 import Skills from  './components/segments/Skills.vue';
 import Projects from './components/segments/Projects.vue';
-import Contact from './components/segments/Contact.vue';
+import PageFooter from './components/PageFooter.vue';
 
 export default {
   name: 'Page',
@@ -36,7 +36,7 @@ export default {
     Skills,
     Experience,
     Projects,
-    Contact
+    PageFooter
   },
   methods: {
     toggleMenu() {

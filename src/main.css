@@ -279,21 +279,3 @@ p > a:hover, p > a:focus {
 .project-button {
     @apply mr-2 p-2.5 rounded-full text-white transition-colors inline-flex flex-nowrap mt-6 bg-dark hover:bg-black;
 }
-
-/* Contact form */
-
-.contact-form {
-    @apply py-2;
-}
-
-.contact-form button {
-    @apply p-2.5 rounded-full text-white transition-colors inline-flex flex-nowrap bg-dark hover:bg-black;
-}
-
-.text-red {
-    color: #B7195E;
-}
-
-.text-green {
-    color: #1cad35;
-}

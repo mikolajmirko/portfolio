@@ -10,7 +10,7 @@
             <h2 class="secondary-header text-center mt-4">Code</h2>
             <ul>
               <li>JavaScript ES6</li>
-              <li>Vue.js</li>
+              <li>Angular, Vue</li>
               <li>HTML 5</li>
               <li>CSS3, Sass</li>
               <li class="smaller-element">Multiple frameworks</li>
@@ -24,8 +24,8 @@
             <h2 class="secondary-header text-center mt-4">Design</h2>
             <ul>
               <li>Prototyping</li>
-              <li class="smaller-element">Framer</li>
               <li class="smaller-element">Figma</li>
+              <li class="smaller-element">Framer</li>
               <li class="smaller-element">UXPin</li>
               <li>Graphics</li>
               <li class="smaller-element">Affinity Designer</li>
@@ -39,7 +39,7 @@
           <div data-aos="fade-up" data-aos-delay="500">
             <h2 class="secondary-header text-center mt-4">Project & Team</h2>
             <ul>
-              <li>Git & JIRA</li>
+              <li>Git & Azure DevOps</li>
               <li>Agile methodology</li>
               <li>Visual Studio Code</li>
               <li>Microsoft Office Apps</li>

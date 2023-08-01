@@ -39,6 +39,12 @@ export default {
     return {
       work: [
         {
+          position: "Front-end developer & UI designer",
+          type: "Employment",
+          description: "Front end app development and maintenance for Norway market. Responsible for new features, bugfixes and testing. Designing new views with the use of Figma. Technologies used: TypeScript, Angular, HTML & CSS, REST API, C#, SQL Server.",
+          details: "Volue - November 2021 - currently"
+        },
+        {
           position: "Front-end developer",
           type: "Internship",
           description: "Implementing and testing front-end components on the Finnish TV advertising platform. Technologies used: JavaScript, Backbone framework, jQuery library, Sass, REST API.",
